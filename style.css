@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    background-color: #0A2640;
+    position: relative;
+    z-index: -2;
+    overflow: hidden;
+}
+.header::after{
+    content: "";
+    display: block;
+    width: 1293px;
+    height: 1293px;
+    background: #1C3D5B;
+    border-radius: 1293px;
+    position: absolute;
+    right: -646.5px;
+    top: -789px;
+    z-index: -1;
+}
+.wrapper{
+    max-width: 1200px;
+    margin: auto;
+    padding: 46px 0px 56px 0px;
+}
+.header__menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 64px;
+}
+.header__links{
+    width: 100%;
+    max-width: 420px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header__link{
+    color: #ffffff;
+    font-family: 'Open Sans';
+    font-weight: 600;
+    font-size: 16px;
+    text-decoration: none;
+}
+.header__link--special-button{
+    display: inline-block;
+    padding: 8px 40px;
+    background-color: #ffffff;
+    color: #0A2640;
+    border-radius: 24px;
+}
+.header__content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header__offer{
+    width: 576px;
+}
+.header__title{
+    font-family: 'Manrope';
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 72px;
+    color: #FFFFFF;
+    margin-bottom: 16px;
+}
+.header__text{
+    font-family: 'Open Sans';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #F1F1F1;
+    margin-bottom: 40px;
+}
+.header__button{
+    display: inline-block;
+    border: 1px solid #ffffff;
+    border-radius: 56px;
+    color: #ffffff;
+    text-decoration: none;
+    padding: 16px 56px;
+    font-family: 'Open Sans';
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 28px;
+}
+.header__button--green{
+    background-color: #65E4A3;
+    border: 2px solid #69E6A6;
+    border-radius: 56px;
+    margin-right: 24px;
+    color: #0A2640;
+}
+.header__logos{
+    margin-top: 56px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+}
+.header__logos::after{
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background: linear-gradient(90deg, #0A2640 0%, rgba(10, 38, 64, 0.109375) 31.6%, rgba(10, 38, 64, 0) 72.89%, #0A2640 97.87%);
+}
